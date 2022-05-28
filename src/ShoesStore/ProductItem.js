@@ -9,7 +9,7 @@ class ProductItem extends Component {
                 <div className='card-body'>
                     <h4 className='card-title'>{product.name}</h4>
                     <p className='card-text'>{product.price} $</p>
-                    <button className='btn btn-dark' onClick={() => onSelect(product)} data-bs-toggle="modal" data-bs-target={`#item-${product.id}`}>Xem chi tiết</button>
+                    <button className='btn btn-dark' onClick={() => onSelect(product)}>Xem chi tiết</button>
                 </div>
             </div>
         );
